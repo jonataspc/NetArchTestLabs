@@ -8,7 +8,6 @@ var result = Types.InCurrentDomain()
                   .GetResult();
 
 Console.WriteLine(result.IsSuccessful); // should be true
-Console.WriteLine(string.Join(",", result.FailingTypeNames));
 
 namespace NetArchTestLabs
 {
